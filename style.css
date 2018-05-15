@@ -1,0 +1,70 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+/*Font taken for the Main Text*/
+body {
+	font-family: 'Dosis', Montserrat;
+}
+
+hr{
+	max-width: 75px;
+	border-width: 3px;
+	border-color: #06d656;
+}
+
+/*Adding A faded look to our Text*/
+.faded{
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/*Now we are going to allow for the modification 
+of the background of in the landing page */
+header.startup{
+	background-position: center;
+  	background-image: url("5.1 header.jpg.jpg");
+  	background-size: cover;
+  	height: 100%;
+}
+
+
+/*Now for adjusting the Header height in the 
+horizontal position*/ 
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+/*For the adjustment of the Text size*/
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+/*The Button here is modified for the font properties*/
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #06d656;
+  border-color: #06d656; }
+
+.btn-primary:hover {
+  background-color: #35ee07;
+  border-color: #35ee07;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+
+
+
